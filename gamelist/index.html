@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/gamelist/style.css" />
+  </head>
+  <body>
+    <!-- ↓ Search ↓ -->
+
+    <!-- ↓ Games ↓ -->
+    <div
+      id="Game_Card"
+      class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 3xl:grid-cols-4 gap-4 md:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl h-min px-3"
+    >
+      <a
+        href="https://sites.google.com/view/toriigames/games/bad-ice-cream"
+        style="text-decoration: none"
+        class="relative w-full h-48 shadow-lg shadow-gray-600 dark:shadow-gray-900 rounded-xl overflow-hidden hover:translate-y-[-0.125rem] transition ease-linear cursor-pointer"
+        style="opacity: 1; transform: none"
+        ><div
+          class="relative w-full h-48 shadow-lg shadow-gray-600 dark:shadow-gray-900 rounded-xl overflow-hidden hover:translate-y-[-0.125rem] transition ease-linear cursor-pointer"
+          style="opacity: 1; transform: none"
+        >
+          <div class="w-full h-full bg-gray-400 rounded-2xl animate-pulse"></div>
+          <img
+            src="https://drive.google.com/uc?id=10dpQYVZpnOk0Pcxx4FUVRPnZKYHog0MU"
+            class="absolute top-0 left-0 w-full h-full object-cover object-center"
+            draggable="false"
+            id="img"
+          />
+          <div class="bg-gradient-to-b from-transparent to-gray-900 absolute inset-0">
+            <div class="absolute bottom-0 p-4">
+              <h1 class="text-lg text-white md:text-xl 2xl:text-2xl font-extrabold tracking-tight" id="Gamename">Orginal Card that works</h1>
+            </div>
+          </div>
+          <div
+            class="absolute inset-0 w-full h-full border-transparent border-[3px] hover:border-primary rounded-xl ease-linear transition"
+          ></div></div
+      ></a>
+    </div>
+    <script src="/gamelist/main.js"></script>
+  </body>
+</html>
